@@ -7,7 +7,7 @@ public class Punto5 {
 
             if (i % 2 == 0){
                 System.out.println("El número "+ i + " es par");
-            }else(i % 2 != 0){
+            }else{
                 System.out.println("El número "+ i + " es impar" );
             }
             i++;
