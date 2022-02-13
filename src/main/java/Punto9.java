@@ -14,7 +14,7 @@ public class Punto9 {
         System.out.println("Ingrese la nueva frase");
         nuevaFrase = scanner.nextLine();
 
-        System.out.println("\n\"" + frase + ", " + nuevaFrase + "\"");
+        System.out.println("\n\"" + frase.replace("a","e") + ", " + nuevaFrase + "\"");
 
     }
 }
