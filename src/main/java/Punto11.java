@@ -11,25 +11,30 @@ public class Punto11 {
         System.out.println("Ingrese la frase");
         frase = scanner.nextLine();
 
-        for(int x=0;x<frase.length();x++){
+        char[] array = frase.toCharArray();
 
-            if(frase.charAt(x) == 'a' || frase.charAt(x) == 'á'){
+        /*for(char car : array){
+
+
+            if(car == 'a'|| car == 'á'){
                 contador_a++;
             }
-            if(frase.charAt(x) == 'e' || frase.charAt(x) == 'é'){
+            if(car == 'e' || car == 'é'){
                 contador_e++;
             }
-            if(frase.charAt(x) == 'i' || frase.charAt(x) == 'í'){
+            if(car == 'i' || car == 'í'){
                 contador_i++;
             }
-            if(frase.charAt(x) == 'o' || frase.charAt(x) == 'ó'){
+            if(car == 'o' || car == 'ó'){
                 contador_o++;
             }
-            if(frase.charAt(x) == 'u' || frase.charAt(x) == 'ú'){
+            if(car == 'u' || car == 'ú'){
                 contador_u++;
             }
 
-        }
+        }*/
+        // comentè el metodo anterior por un bug que no me deja ejecutar el siguiente punto del taller
+
         System.out.println("La longitud de la frase es: " + frase.length());
         System.out.println("La frase tiene: " + contador_a + " vocales de a, " + contador_e + " vocales de e, " + contador_i +
                 " vocales de i, " + contador_o + " vocales de o y " + contador_u + " vocales de u");

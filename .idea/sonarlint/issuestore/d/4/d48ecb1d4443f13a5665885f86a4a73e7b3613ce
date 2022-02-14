@@ -1,0 +1,16 @@
+
+@
+java:S1659"%Declare "Numero2" on a separate line.(Èñ„øşÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(–Ã›
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¥Ä¾§şÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(©‡°şÿÿÿÿ
+R
+java:S3972"7Move this "if" to a new line or add the missing "else".(ŒõÅ¦ùÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(€äÍ˜şÿÿÿÿ
+R
+java:S3972"7Move this "if" to a new line or add the missing "else".(Î‰ˆ¯úÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(¸»Üß
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Èñ„øşÿÿÿÿ
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Èñ„øşÿÿÿÿ
+0
+java:S1220""Move this file to a named package.
